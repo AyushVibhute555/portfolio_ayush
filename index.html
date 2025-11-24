@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ayush Vibhute • Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- NAVBAR -->
+  <header class="nav">
+    <div class="nav-left">
+      <span class="logo-mark">AV</span>
+      <span class="logo-text">Ayush Vibhute</span>
+    </div>
+    <nav class="nav-right">
+      <a href="#about" class="nav-link">About</a>
+      <a href="#experience" class="nav-link">Experience</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#education" class="nav-link">Education</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+  </header>
+
+  <!-- HERO SECTION -->
+  <main>
+    <section class="hero">
+      <div class="hero-bg"></div>
+      <div class="hero-inner">
+        <div class="hero-text reveal">
+          <h1 class="hero-title">Ayush Vibhute</h1>
+          <p class="hero-tagline">
+            Full-Stack Developer • Data Science &amp; Machine Learning Enthusiast
+          </p>
+          <p class="hero-objective">
+            I build practical, scalable solutions in full-stack development and
+            data science, combining clean engineering with data-driven decision
+            making.
+          </p>
+
+          <div class="hero-cta">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="#contact" class="btn btn-ghost">Contact Me</a>
+          </div>
+
+          <div class="hero-meta">
+            <span>🌍 Kolhapur, India</span>
+            <span>📧 ayushvib27@gmail.com</span>
+            <span>📱 +91 89565 55402</span>
+          </div>
+        </div>
+
+        <!-- 3D PHOTO CARD -->
+        <div class="hero-photo-wrapper reveal">
+          <div class="hero-photo-card tilt-card">
+            <div class="photo-glow"></div>
+            <!-- your photo -->
+            <img
+              src="my-photo.jpg"
+              alt="Ayush Vibhute"
+              class="hero-photo"
+            />
+            <div class="hero-photo-label">
+              <span>Developer</span>
+              <span>Data Science</span>
+            </div>
+          </div>
+
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section reveal section-shell">
+      <div class="section-header">
+        <h2>About</h2>
+        <p>Who I am &amp; what I love building.</p>
+      </div>
+      <div class="section-body about-body">
+        <p>
+          I’m a Computer Science (Data Science) undergraduate passionate about
+          building end-to-end products that blend solid backend engineering with
+          clean frontends and data-driven intelligence. I enjoy working on
+          scalable web apps, ML-powered systems, and analytics projects that
+          solve real-world problems.
+        </p>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section reveal section-shell">
+      <div class="section-header">
+        <h2>Experience</h2>
+        <p>Hands-on internships &amp; real-world work.</p>
+      </div>
+
+      <div class="cards-grid">
+        <article class="card tilt-card">
+          <div class="card-top">
+            <h3>IITB EdTech Internship – Educational Data Analysis</h3>
+            <span class="card-tag">Data Analytics • ML</span>
+          </div>
+          <p>
+            Worked with large educational datasets to develop data-driven
+            models and visualizations that improved decision-making in EdTech.
+          </p>
+          <ul>
+            <li>Explored data using statistical methods and ML tools.</li>
+            <li>Built visual dashboards and performance insights.</li>
+          </ul>
+        </article>
+
+        <article class="card tilt-card">
+          <div class="card-top">
+            <h3>AWS Academy via EduSkills – Intern</h3>
+            <span class="card-tag">Cloud • DevOps</span>
+          </div>
+          <p>
+            Designed and deployed secure, scalable AWS applications using
+            services like EC2, S3, IAM, VPC, RDS, and CloudFormation.
+          </p>
+          <ul>
+            <li>Implemented Infrastructure as Code for automated provisioning.</li>
+            <li>Focused on reliability, monitoring, and cost-effective design.</li>
+          </ul>
+        </article>
+
+        <article class="card tilt-card">
+          <div class="card-top">
+            <h3>Web Development Internship – Edunet Foundation</h3>
+            <span class="card-tag">Web Dev</span>
+          </div>
+          <p>
+            Worked independently on a web project, applying modern development
+            practices to solve real-world challenges.
+          </p>
+          <ul>
+            <li>Strengthened self-learning and collaboration with mentors.</li>
+            <li>Gained exposure to industry-standard web dev workflows.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section reveal section-shell">
+      <div class="section-header">
+        <h2>Projects</h2>
+        <p>Selected work across full-stack, ML and analytics.</p>
+      </div>
+
+      <div class="cards-grid">
+        <!-- SmartCart -->
+        <article class="card tilt-card accent-cyan">
+          <div class="card-top">
+            <h3>SmartCart: AI-Based Grocery Billing System</h3>
+            <span class="card-tag">05/2025 – Present</span>
+          </div>
+          <p class="tech-stack">
+            HTML, CSS, JavaScript, React, NodeJS, Python Flask, REST APIs, MySQL
+          </p>
+
+          <div class="project-media">
+            <img
+              src="proj-smartcart.png"
+              alt="AI-powered smart grocery cart UI illustration"
+            />
+          </div>
+
+          <ul>
+            <li>
+              Full-stack retail app with QR/Barcode scanning, voice-based item
+              entry, and real-time cart updates.
+            </li>
+            <li>
+              Microservices, JWT auth with RBAC, PDF invoices &amp; analytics
+              dashboards.
+            </li>
+          </ul>
+
+          <div class="project-links">
+            <a
+              href="https://github.com/AyushVibhute555/Smart_Card"
+              target="_blank"
+              rel="noopener"
+              class="btn btn-ghost btn-small"
+            >
+              GitHub
+            </a>
+          </div>
+        </article>
+
+        <!-- Gait Recognition -->
+        <article class="card tilt-card accent-violet">
+          <div class="card-top">
+            <h3>Human Authentication Using Gait Recognition</h3>
+            <span class="card-tag">11/2024 – 04/2025</span>
+          </div>
+          <p class="tech-stack">
+            Python, Machine Learning, MediaPipe, OpenCV, NumPy, Pandas,
+            Tkinter, Scikit-Learn
+          </p>
+
+          <div class="project-media">
+            <img
+              src="proj-gait.png"
+              alt="Futuristic gait recognition and human pose visualization"
+            />
+          </div>
+
+          <ul>
+            <li>
+              Biometric authentication using MediaPipe Pose keypoints and ML
+              models (Random Forest, SVM).
+            </li>
+            <li>
+              85%+ accuracy on a custom dataset with real-time GUI
+              visualization.
+            </li>
+          </ul>
+
+          <div class="project-links">
+            <a
+              href="https://github.com/AyushVibhute555/Human_Authentication_using_gait_recognition"
+              target="_blank"
+              rel="noopener"
+              class="btn btn-ghost btn-small"
+            >
+              GitHub
+            </a>
+          </div>
+        </article>
+
+        <!-- Smart Banking -->
+        <article class="card tilt-card accent-amber">
+          <div class="card-top">
+            <h3>Smart Banking &amp; Personal Finance Manager</h3>
+            <span class="card-tag">01/2025 – 03/2025</span>
+          </div>
+          <p class="tech-stack">
+            Spring Boot, Spring Security, React, MySQL, REST APIs, JWT, Chart.js
+          </p>
+
+          <div class="project-media">
+            <img
+              src="proj-banking.png"
+              alt="Minimal smart banking dashboard and finance analytics"
+            />
+          </div>
+
+          <ul>
+            <li>
+              Secure banking platform with real-time fund transfers and
+              ACID-compliant services.
+            </li>
+            <li>
+              Personal Finance Manager module for automated expense
+              categorization and budget insights.
+            </li>
+          </ul>
+
+          <div class="project-links">
+            <a
+              href="https://github.com/AyushVibhute555/Bank_Managmant_Syatem_With_Strong_Security"
+              target="_blank"
+              rel="noopener"
+              class="btn btn-ghost btn-small"
+            >
+              GitHub
+            </a>
+          </div>
+        </article>
+
+        <!-- Data Analysis -->
+        <article class="card tilt-card accent-emerald">
+          <div class="card-top">
+            <h3>Data Analysis – Kaggle Datasets</h3>
+            <span class="card-tag">06/2024 – 07/2024</span>
+          </div>
+          <p class="tech-stack">
+            Python, ETL, EDA, Pandas, NumPy, Matplotlib, Seaborn,
+            Scikit-Learn
+          </p>
+
+          <div class="project-media">
+            <img
+              src="proj-eda.png"
+              alt="Clean black dashboard with charts and data analysis"
+            />
+          </div>
+
+          <ul>
+            <li>
+              EDA &amp; statistical analysis on IMDB, Iris and Titanic datasets.
+            </li>
+            <li>
+              Preprocessing &amp; ML pipelines with visual evaluation reports.
+            </li>
+          </ul>
+
+          <div class="project-links">
+            <a
+              href="https://github.com/AyushVibhute555/codesofttask"
+              target="_blank"
+              rel="noopener"
+              class="btn btn-ghost btn-small"
+            >
+              GitHub
+            </a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section reveal section-shell">
+      <div class="section-header">
+        <h2>Skills</h2>
+        <p>What I work with on a daily basis.</p>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-block tilt-card">
+          <h3>Languages</h3>
+          <p>HTML, CSS, JavaScript, Java, Python, SQL, C, C++</p>
+        </div>
+        <div class="skill-block tilt-card">
+          <h3>Frameworks &amp; Libraries</h3>
+          <p>
+            React.js, Spring, Spring Boot, Hibernate, NumPy, Pandas,
+            Scikit-Learn, Matplotlib, TensorFlow, Keras, PyTorch, SciPy
+          </p>
+        </div>
+        <div class="skill-block tilt-card">
+          <h3>Tools &amp; Cloud</h3>
+          <p>Power BI, Excel, Docker, Jupyter, Git, GitHub, AWS, CI/CD</p>
+        </div>
+        <div class="skill-block tilt-card">
+          <h3>Databases &amp; Backend</h3>
+          <p>MySQL, MongoDB, REST APIs, JDBC, Microservices, ORM</p>
+        </div>
+        <div class="skill-block tilt-card">
+          <h3>Concepts</h3>
+          <p>
+            OOP, SDLC, Agile, Cloud Computing, Cybersecurity Basics, OS,
+            Computer Networks, DBMS, Data Mining, EDA, API Integration, Linux
+          </p>
+        </div>
+        <div class="skill-block tilt-card">
+          <h3>Soft Skills</h3>
+          <p>Problem Solving, Team Collaboration, Leadership, Communication</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="section reveal section-shell">
+      <div class="section-header">
+        <h2>Education</h2>
+        <p>Academic journey &amp; key milestones.</p>
+      </div>
+
+      <div class="cards-grid">
+        <article class="card tilt-card">
+          <div class="card-top">
+            <h3>B.Tech in Computer Science Engineering (Data Science)</h3>
+            <span class="card-tag">08/2022 – 07/2026</span>
+          </div>
+          <p>D. Y. Patil College of Engineering and Technology, Kolhapur</p>
+          <p>CGPA: 7.9 / 10 (Present)</p>
+        </article>
+
+        <article class="card tilt-card">
+          <div class="card-top">
+            <h3>Higher Secondary (12th)</h3>
+            <span class="card-tag">06/2020 – 03/2022</span>
+          </div>
+          <p>Jantara Junior College, Jaysingpur</p>
+          <p>Percentage: 69.17%</p>
+        </article>
+
+        <article class="card tilt-card">
+          <div class="card-top">
+            <h3>Secondary School (10th)</h3>
+            <span class="card-tag">06/2019 – 05/2020</span>
+          </div>
+          <p>Dharangutti Highschool, Dharangutti</p>
+          <p>Percentage: 85.80%</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section reveal section-shell">
+      <div class="section-header">
+        <h2>Contact</h2>
+        <p>Let’s build something together.</p>
+      </div>
+
+      <div class="contact-body">
+        <div class="contact-info">
+          <p>
+            <strong>Email:</strong>
+            <a href="mailto:ayushvib27@gmail.com">ayushvib27@gmail.com</a>
+          </p>
+          <p>
+            <strong>Phone:</strong>
+            <a href="tel:+918956555402">+91 89565 55402</a>
+          </p>
+        </div>
+        <div class="contact-links">
+          <a
+            href="https://www.linkedin.com/in/555-ayush-vibhute/"
+            target="_blank"
+            rel="noopener"
+            class="btn btn-ghost btn-small"
+          >
+            LinkedIn
+          </a>
+          <a
+            href="https://github.com/AyushVibhute555"
+            target="_blank"
+            rel="noopener"
+            class="btn btn-ghost btn-small"
+          >
+            GitHub
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>© 2025 Ayush Vibhute · All rights reserved.</span>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
